@@ -2,6 +2,7 @@ PImage photo;
 PFont f;
 int state;
 
+
 void setup(){
   size(1240,960);
   background(1,28,255);
@@ -132,7 +133,7 @@ void keyPressed(){
      
        if (key == 'a' && state == 3) {
        background(255);
-       fill(5,154,217);
+       fill(75,187,0);
        textFont(f,30);
        photo = loadImage ("12.jpg");
        image (photo, 0,380,1240,480);
