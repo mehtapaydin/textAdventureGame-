@@ -122,13 +122,15 @@ void keyPressed(){
      }
         
        if (key == 'b' && state == 2) {
-       background(76,186,0);
+       background(0);
        fill(255);
        textFont(f,64);
+       photo = loadImage ("a1.jpg");
+       image (photo, 120,380,302,145);
         //photo = loadImage ("9.jpg");
        //image (photo, 0,380,1240,480);
-       String x = "Why not?";
-       text(x, 40, 400);
+       //String x = "Why not?";
+       //text(x, 40, 400);
      }
      
        if (key == 'a' && state == 3) {
@@ -143,13 +145,11 @@ void keyPressed(){
        text(m, 24, 280);
      }
       if (key == 'b' && state == 3) {
-       background(76,186,0);
+       background(0);
        fill(255);
        textFont(f,64);
-        //photo = loadImage ("9.jpg");
-       //image (photo, 0,380,1240,480);
-       String x = "Why not?";
-       text(x, 40, 400);
+       photo = loadImage ("a2.jpg");
+       image (photo, 120,380,302,145);
      }
        if (key == 'a' && state == 4) {
        background(255);
@@ -163,16 +163,12 @@ void keyPressed(){
        text(m, 24, 280);
      }
       if (key == 'b' && state == 4) {
-       background(76,186,0);
+       background(0);
        fill(255);
        textFont(f,64);
-        //photo = loadImage ("9.jpg");
-       //image (photo, 0,380,1240,480);
-       String x = "Why not?";
-       text(x, 40, 400);
-     } 
-    
-      
+       photo = loadImage ("a3.jpg");
+       image (photo, 120,380,302,145);
+     }      
 }
 
 
